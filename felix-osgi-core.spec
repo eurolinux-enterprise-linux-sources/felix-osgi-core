@@ -2,7 +2,7 @@
 
 Name:    felix-osgi-core
 Version: 1.4.0
-Release: 14%{?dist}
+Release: 15%{?dist}
 Summary: Felix OSGi R4 Core Bundle
 
 License: ASL 2.0
@@ -45,6 +45,9 @@ API documentation for %{name}.
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.0-15
+- Mass rebuild 2013-12-27
+
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.4.0-14
 - Migrate away from mvn-rpmbuild (#997435)
 
